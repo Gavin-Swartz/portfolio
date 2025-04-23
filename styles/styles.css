@@ -34,6 +34,12 @@ a {
   color: black;
 }
 
+.page-des {
+  font-size: larger;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
 /* Large section inside body, column */
 .section {
   height: 450px;
@@ -61,7 +67,7 @@ a {
 }
 
 .img-section:hover .a-img {
-  opacity: .2;
+  opacity: .1;
 }
 .img-section:hover .img-overlay {
   opacity: 1;
@@ -70,8 +76,8 @@ a {
 .a-img {
   object-fit: cover;
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 600px;
+  height: auto;
   opacity: 1;
   transition: 1s;
 }
