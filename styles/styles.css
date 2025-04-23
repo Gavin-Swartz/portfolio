@@ -35,6 +35,16 @@ body {
 
 /* Smaller part inside section, 2 per section */
 .part {
-  margin: 5px;
   flex: 1;
+}
+
+/* Images as background for part */
+#unl-image {
+  background-image: url(../images/unl.jpg);
+  background-size: cover;
+}
+#hanyang-image {
+  background-image: url(../images/hanyang.jpg);
+  background-size: cover;
+  background-position: 10%;
 }
