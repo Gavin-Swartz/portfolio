@@ -22,7 +22,19 @@ body {
   opacity: 1;
 }
 
+/* Large section inside body, column */
 .section {
   border: 1px solid black;
   height: 300px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+/* Smaller part inside section, 2 per section */
+.part {
+  margin: 5px;
+  flex: 1;
 }
