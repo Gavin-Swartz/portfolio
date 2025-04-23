@@ -15,11 +15,15 @@ body {
   color: black;
   opacity: .7;
   transition: .3s;
-  text-decoration: none;
 }
 
 .navlink:hover {
   opacity: 1;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 /* Large section inside body, column */
