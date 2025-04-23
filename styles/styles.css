@@ -6,7 +6,8 @@ body {
 .navbar {
   display: flex;
   flex-direction: row;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  padding-top: 10px;
 }
 
 .navlink {
@@ -28,27 +29,33 @@ a {
 
 /* Large section inside body, column */
 .section {
-  border: 1px solid black;
   height: 300px;
   display: flex;
   flex-direction: row;
   overflow: hidden;
   margin-bottom: 20px;
-  border-radius: 10px;
 }
 
 /* Smaller part inside section, 2 per section */
 .part {
-  flex: 1;
+  width: 50%;
 }
 
-/* Images as background for part */
+/* Images */
+.rounded-img {
+  border-radius: 10px;
+  opacity: .5;
+  transition: 2s;
+}
+.rounded-img:hover {
+  opacity: 1;
+}
+
 #unl-image {
-  background-image: url(../images/unl.jpg);
-  background-size: cover;
+  max-width: 100%;
+  height: auto;
 }
 #hanyang-image {
-  background-image: url(../images/hanyang.jpg);
-  background-size: cover;
-  background-position: 10%;
+  max-width: 100%;
+  height: auto;
 }
