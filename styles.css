@@ -1,15 +1,17 @@
 body {
-  
+ display: flex;
+ flex-direction: column; 
 }
 
 .navbar {
   display: flex;
   flex-direction: row;
-  height: 30px;
+  margin-bottom: 20px;
 }
 
 .navlink {
   flex: 1;
+  font-size: larger;
   color: black;
   opacity: .7;
   transition: .3s;
@@ -21,6 +23,6 @@ body {
 }
 
 .section {
-  background-color: white;
+  border: 1px solid black;
   height: 300px;
 }
