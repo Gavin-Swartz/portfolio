@@ -42,11 +42,13 @@ a {
 
 /* Large section inside body, column */
 .section {
-  height: 450px;
+  height: 475px;
   display: flex;
   flex-direction: row;
   overflow: hidden;
   margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Smaller part inside section, 2 per section */
@@ -63,7 +65,7 @@ a {
   display: flex;
   flex-direction: row;
   overflow: hidden;
-  margin: 10px;
+  margin: 5px;
 }
 
 .img-section:hover .a-img {
@@ -76,7 +78,7 @@ a {
 .a-img {
   object-fit: cover;
   display: block;
-  width: 600px;
+  width: 400px;
   height: auto;
   opacity: 1;
   transition: 1s;
