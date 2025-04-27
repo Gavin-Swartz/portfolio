@@ -92,7 +92,7 @@ a {
   opacity: 0;
 }
 
-/* ------------------------------- Cover section ------------------------------- */
+/* ------------------------------- Cover Section ------------------------------- */
 #main-section {
   height: 600px;
   width: 100%;
@@ -116,8 +116,8 @@ a {
 }
 
 #social-bar {
-  width: 400px;
-  height: 80px;
+  width: 200px;
+  height: 50px;
   display: flex;
   flex-direction: row;
   margin-top: 0px;
@@ -132,9 +132,36 @@ a {
 .social-icon img {
   max-width: 100%;
   max-height: 100%;
-  transition: 1s;
+  transition: .5s;
 }
 
 .social-icon img:hover {
-  opacity: .5;
+  opacity: .4;
+}
+
+/* ------------------------------- Contact Section ------------------------------- */
+#contact-section {
+  height: 475px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.input-box {
+  margin: 10px;
+  height: 50px;
+  width: 400px;
+  font-size: x-large;
+  border: 1px solid black;
+  opacity: .4;
+  border-radius: 5px;
+  transition: 1s;
+}
+.input-box:hover {
+  opacity: 1;
+}
+.input-box:focus {
+  opacity: 1;
 }
