@@ -78,7 +78,7 @@ a {
 .a-img {
   object-fit: cover;
   display: block;
-  width: 400px;
+  width: 430px;
   height: auto;
   opacity: 1;
   transition: 1s;
@@ -90,4 +90,51 @@ a {
   position: absolute;
   transition: 1s;
   opacity: 0;
+}
+
+/* ------------------------------- Cover section ------------------------------- */
+#main-section {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin-bottom: 10px;
+  background-color: cadetblue;
+  align-items: center;
+  justify-content: center;
+}
+
+#big-name {
+  font-size: 800%;
+  color: white;
+  margin-bottom: 5px;
+  transition: 1s;
+}
+#big-name:hover {
+  opacity: .5;
+}
+
+#social-bar {
+  width: 400px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+}
+
+.social-icon {
+  flex: 1;
+  margin: 10px;
+  margin-top: 0px;
+}
+
+.social-icon img {
+  max-width: 100%;
+  max-height: 100%;
+  transition: 1s;
+}
+
+.social-icon img:hover {
+  opacity: .5;
 }
