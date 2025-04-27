@@ -103,15 +103,26 @@ a {
   background-color: cadetblue;
   align-items: center;
   justify-content: center;
+  border-radius: 10px;
 }
 
 #big-name {
   font-size: 800%;
   color: white;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   transition: 1s;
 }
 #big-name:hover {
+  opacity: .5;
+}
+
+#title {
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  transition: 1s;
+}
+#title:hover {
   opacity: .5;
 }
 
