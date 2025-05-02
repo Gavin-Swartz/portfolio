@@ -1,11 +1,11 @@
 body {
- display: flex;
- flex-direction: column; 
- background-color: white;
- color: black;
- font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- align-items: center;
- font-size: large;
+  display: flex;
+  flex-direction: column; 
+  background-color: white;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  align-items: center;
+  font-size: large;
 }
 
 .navbar {
@@ -65,7 +65,11 @@ a {
   display: flex;
   flex-direction: row;
   overflow: hidden;
-  margin: 5px;
+  margin: 2px;
+}
+
+#skinny-img {
+  width: 32%;
 }
 
 .img-section:hover .a-img {
@@ -107,7 +111,10 @@ a {
 }
 
 #big-name {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 800%;
+  background-color: transparent;
+  border: transparent;
   color: white;
   margin-bottom: 0px;
   transition: 1s;
@@ -120,10 +127,6 @@ a {
   color: white;
   margin-top: 0px;
   margin-bottom: 20px;
-  transition: 1s;
-}
-#title:hover {
-  opacity: .5;
 }
 
 #social-bar {
